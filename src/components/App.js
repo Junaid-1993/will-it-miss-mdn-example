@@ -43,7 +43,8 @@ export default function App() {
       <p>
         {' '}
         {format(addDays(new Date(), 1), 'EEEE d-MMM')} there will be{' '}
-        <strong>{results.length}</strong> flying goats and cows
+        <strong>{results.length}</strong> flying goats and cows and maybe some
+        rabbits who knows.
       </p>
       <hr></hr>
       {results
